@@ -1,0 +1,92 @@
+body,button,input,select,textarea{
+    font-family:'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ul,li{list-style:none;}
+fieldset,img{border:0;vertical-align:middle;}
+input,textarea{outline-style:none;}
+textarea{resize:none;}
+button{border:0;}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+em{font-style:normal;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+html{height: 100%;}
+body{    
+    height: 100%;
+    font-size: 14px;
+}
+.wrapper{
+    position: relative;
+    height: 100%;
+    .header-bar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        z-index: 1000;
+    }
+    .main{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        box-sizing: border-box;
+        .side-bar{
+            position: fixed;
+            top: 50px;
+            left: 0;
+            height: 100%;
+            width: 210px;
+            background-color: #222d32;
+        }
+        .container{
+            width: 100%;
+            padding-left: 210px;
+            box-sizing: border-box;
+            .con-main{
+                width: 1139px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+table{
+    width: 96%;
+    margin:15px auto;
+    font-size: 13px;
+    thead{
+        color: #5c5c5c;
+        background-color: #fafafa;
+        border-bottom: 1px solid #f0f0f0;
+        border-top: 1px solid #f0f0f0;
+        th{
+            line-height: 21px;
+            padding: 10px 10px;
+            vertical-align: middle;
+            text-align: left;
+            font-weight: normal;
+        }
+    }
+    tbody{
+        border-bottom: 1px solid #f0f0f0;
+        tr{
+            background-color: #fff;
+            border-top: 1px solid #f0f0f0;
+            box-sizing: border-box;
+            td{
+                height: 42px;
+                box-sizing: border-box;
+                padding-left: 10px;
+            }
+            &:hover{
+                background-color: #f7faff;
+                border-bottom: 1px solid #b2d7ff;
+                border-top: 1px solid #b2d7ff;
+            }
+        }
+    }
+}
