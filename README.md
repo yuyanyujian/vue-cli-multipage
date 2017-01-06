@@ -145,23 +145,5 @@ vue2.0版本多页面入口,是由webpack配置来完成的
       module.exports.plugins.push(new HtmlWebpackPlugin(conf));
     }
 
-
-## css autoprefix的问题
-
-  外部引入的css未自动添加前缀，这个问题未解决
-
-  build之后组件内部的css未自动添加前缀
-  ```
-  return {
-    css: generateLoaders(['css?-autoprefixer']),
-    postcss: generateLoaders(['css?-autoprefixer']),
-    less: generateLoaders(['css?-autoprefixer', 'less']),
-    sass: generateLoaders(['css?-autoprefixer', 'sass?indentedSyntax']),
-    scss: generateLoaders(['css?-autoprefixer', 'sass']),
-    stylus: generateLoaders(['css?-autoprefixer', 'stylus']),
-    styl: generateLoaders(['css?-autoprefixer', 'stylus'])
-  }
-  ```
-
 ## 参考
 [vue-router2.0](https://github.com/yaoyao1987/vue-cli-multipage)
