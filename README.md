@@ -1,6 +1,6 @@
-# vue-cli多页面
+# vue-cli多页面应用
 
-> A Vue.js project
+> A Vue.js Multipage project
 
 ## Build Setup
 
@@ -32,16 +32,12 @@ vue2.0版本多页面入口,是由webpack配置来完成的
       |---build
       |---src
         |---assets 资源
-        |---components组件
-        |---module各个模块
+        |---components 组件
+        |---module 各个模块
           |---index    index模块
             |---index.html
             |---index.js
-            |---index.vue
-          |---info       info模块
-            |---info.html
-            |---info.js
-            |---info.vue
+            |---App.vue
   ```
 
 修改webpack.base.conf.js文件
@@ -168,4 +164,4 @@ vue2.0版本多页面入口,是由webpack配置来完成的
   ```
 
 ## 参考
-[vue-router2.0](http://gold.xitu.io/entry/57fcd8088ac2470058cadd6e)
+[vue-router2.0](https://github.com/yaoyao1987/vue-cli-multipage)
