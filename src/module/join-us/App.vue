@@ -439,7 +439,7 @@
         box-sizing: border-box;
     }
     nav{
-        background: url("../../assets/img/about-us.png") center center no-repeat;
+        background: url("../../assets/img/about-us.jpg") center center no-repeat;
     }
     .join-wrapper{
     width: 100%;

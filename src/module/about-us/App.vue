@@ -25,7 +25,7 @@
                         </section>
                         <section class="advantage">
                             <h3 class="article">我们的优势</h3>
-                            <img src="../../assets/img/advantage.png">
+                            <img src="../../assets/img/advantage.jpg">
                         </section>
                         <section class="time-line">
                             <h3 class="article">公司里程</h3>
@@ -274,11 +274,11 @@
                             <ul class="adress">
                                 <li>
                                     <p>北京总部：北京海淀区中关村软件园云基地C座415-418</p>
-                                    <img src="../../assets/img/map1.png">
+                                    <img src="../../assets/img/map1.jpg">
                                 </li>
                                 <li>
                                     <p>上海办事处：上海市宛平南路98号永丰国际广场银座9楼912室</p>
-                                    <img src="../../assets/img/map2.png">
+                                    <img src="../../assets/img/map2.jpg">
                                 </li>
                             </ul>
                         </section>
@@ -317,7 +317,7 @@
         box-sizing: border-box;
     }
     nav{
-        background: url("../../assets/img/about-us.png") center center no-repeat;
+        background: url("../../assets/img/about-us.jpg") center center no-repeat;
     }
     .product-body{
         width: 100%;

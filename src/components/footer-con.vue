@@ -2,44 +2,64 @@
     <div class="footer-con">
         <div class="feature">
             <div class="feature-con">
-                <p class="feature-text">我们提供了在线的公有云平台和私有云两种交付模式</p>
-                <a href="" class="feature-btn">在线体验</a>
-                <a href="" class="feature-btn">咨询私有云</a>
+                <a href="javascript:void(0)" onclick="_MEIQIA('showPanel')" class="feature-btn">联系我们</a>
             </div>
         </div>
         <div class="footer-top clearfix">
             <div class="footer-logo">
                 <img src="../assets/img/logo_01.png" alt="logo">
                 <ul class="link-icon clearfix">
-                    <li><a href=""><img src="../assets/img/weixin.png" class="img-responsive" alt=""></a></li>
-                    <li><a href=""><img src="../assets/img/weibo.png" class="img-responsive" alt=""></a></li>
-                    <li><a href=""><img src="../assets/img/lianxi.png" class="img-responsive" alt=""></a></li>
+                    <li>
+                        <a href="javascript:;"><img src="../assets/img/weixin.png" alt=""></a>
+                        <div>
+                            <p>寄云科技微信公众号</p>
+                            <img src="../assets/img/jiyun-code.png">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://weibo.com/neucloud?sudaref=www.neucloud.cn&retcode=6102"><img src="../assets/img/weibo.png" alt=""></a>
+                        <div>
+                            <p>寄云科技新浪微博</p>
+                            <img src="../assets/img/weibo-code.png">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="../assets/img/lianxi.png" alt=""></a>
+                        <div>
+                            <p>工业互联网时代公众号</p>
+                            <img src="../assets/img/internet-code.png">
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div class="footer-navbar thin">
                 <h4>解决方案</h4>
-                <p><a href="">工业互联网</a></p>
-                <p><a href="">数字化转型</a></p>
+                <p><a href="industrial-internet.html">工业大数据</a></p>
+                <p><a href="data-fusion.html">数据的高效融合</a></p>
+                <p><a href="edge-calculation.html">边缘计算</a></p>
+                <p><a href="digital-transformation.html">敏捷的IT</a></p>
+                <p><a href="industry-cloud.html">行业云生态</a></p>
             </div>
             <div class="footer-navbar">
                 <h4>产品</h4>
-                <p><a href="">工业大数据分析和应用平台</a></p>
-                <p><a href="">大数据平台</a></p>
-                <p><a href="">云应用市场</a></p>
-                <p><a href="">云应用开发平台</a></p>
-                <p><a href="">云资源管理平台</a></p>
-                <p><a href="">工业物联网网关</a></p>
+                <p><a href="industry-bd-platform.html">工业数据分析套件</a></p>
+                <p><a href="bigdata-platform.html">工业分析应用开发套件</a></p>
+                <p><a href="industry-bd-storage.html">工业数据接入存储套件</a></p>
+                <p><a href="industrial-networking-gateway.html">工业网关</a></p>
+                <p><a href="cloud-app-market.html">云应用市场套件</a></p>
+                <p><a href="cloud-app-develop-platform.html">云应用开发套件</a></p>
+                <p><a href="cloud-resource-manage-platform.html">云资源管理套件</a></p>
             </div>
             <div class="footer-navbar thin">
-                <h4>公司介绍</h4>
-                <p><a href="">了解寄云</a></p>
-                <p><a href="">加入寄云</a></p>
+                <h4>关于我们</h4>
+                <p><a href="about-us.html">了解寄云</a></p>
+                <p><a href="join-us.html">加入寄云</a></p>
             </div>
             <div class="footer-navbar">
                 <h4>联系我们</h4>
-                <p><img src="../assets/img/xin.png" class="message-icon" alt="">marking@neucloud.cn</p>
+                <p><img src="../assets/img/xin.png" class="message-icon" alt="">marketing@neucloud.cn</p>
                 <p><img src="../assets/img/dianhua.png" class="message-icon" alt="">400-006-8110</p>
-                <p><img src="../assets/img/dizhi.png" class="message-icon" alt="">北京市海淀区东北旺西路8号</br>&nbsp;中关村软件园4号楼C座415-418</p>
+                <p><img src="../assets/img/dizhi.png" class="message-icon" alt="">北京市海淀区东北旺西路8号</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中关村软件园4号楼C座415-418</p>
             </div>
         </div>
         <div class="footer-bottom">
@@ -80,13 +100,42 @@
         display: block;
     }
     .link-icon{
-        width: 127px;
+        width: 134px;
         padding: 10px 0px;
-    }
-    .link-icon li{
-        float:left;
-        padding:10px 6px;
-        list-style: none;
+        li{
+            position: relative;
+            float: left;
+            padding: 10px 7px;
+            list-style: none;
+            &:hover{
+                div{
+                    display: block;
+                }
+            }
+            div{
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 1px;
+                width: 134px;
+                color: #ffffff;
+                text-align: center;
+                img{
+                    width: 120px;
+                    height: 120px;
+                    margin: 10px auto;
+                }
+            }
+        }
+        li:nth-child(2){
+            div{left: -43px;}
+        }
+        li:last-child{
+            div{
+                width: 143px;
+                left: -91px;
+            }
+        }
     }
     .footer-navbar{
         float: left;
@@ -105,6 +154,7 @@
         font-size:14px;
         color: #A3A3A3;
         line-height: 26px;
+        margin-bottom: 10px;
     }
     .footer-navbar a{
         font-size:14px;
@@ -137,20 +187,12 @@
     .feature{
         width: 100%;
         min-width: 1170px;
-        background: url(../assets/img/ad_1.png) center center no-repeat;
+        background: url(../assets/img/ad_1.jpg) center center no-repeat;
         background-size: cover;
         text-align: center;
     }
     .feature-con{
         min-width: 1170px;
-    }
-    .feature-text{
-        height:30px;
-        line-height: 30px;
-        color:#ffffff;
-        font-size:20px;
-        display:inline;
-        margin-right:50px;
     }
     .feature-btn{
         border: 2px solid #FFFFFF;
@@ -159,6 +201,6 @@
         color:#ffffff;
         font-size:16px;
         display:inline-block;
-        margin:50px;
+        margin:25px;
     }
 </style>

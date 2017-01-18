@@ -15,14 +15,8 @@
                             <li>
                                 <div>
                                    <h4>技术解决方案</h4>
-                                   <p><a href="industrial-internet.html">工业互联网</a><a href="data-fusion.html">数据融合</a><a href="edge-calculation.html">边缘计算</a><a href="digital-transformation.html">数字化转型</a></br><a href="industry-cloud.html">行业云</a></p>
-                                </div> 
-                            </li>
-                            <li>
-                                <div>
-                                   <h4>行业解决方案</h4>
-                                   <p><a href="">轨道交通</a><a href="">电力和新能源</a><a href="">航天航空</a><a href="">离散制造</a></p>
-                                </div> 
+                                   <p><a href="industrial-internet.html">工业物联网</a><a href="data-fusion.html">数据的高效融合</a><a href="edge-calculation.html">边缘计算</a><a href="digital-transformation.html">敏捷的IT</a></br><a href="industry-cloud.html">行业云生态</a></p>
+                                </div>
                             </li>
                         </ul>
                     </li>
@@ -31,14 +25,20 @@
                         <ul class="down-con" v-show="isActive === 'product'">
                             <li>
                                 <div>
-                                   <h4>工业大数据</h4>
-                                   <p><a href="industry-bd-platform.html">工业大数据分析和应用平台</a><a href="bigdata-platform.html">大数据PaaS平台</a></br><a href="industrial-networking-gateway.html">工业物联网网关</a></p>
-                                </div> 
+                                    <h4>工业物联网平台</h4>
+                                    <p><a href="industry-bd-platform.html">工业数据分析套件</a><a href="bigdata-platform.html">工业分析应用开发套件</a></br><a href="industry-bd-storage.html">工业数据接入存储套件</a></p>
+                                </div>
                             </li>
                             <li>
                                 <div>
-                                   <h4>数字化企业</h4>
-                                   <p><a href="cloud-app-market.html">云应用市场</a><a href="cloud-app-develop-platform.html">云应用开发平台</a><a href="cloud-resource-manage-platform.html">云资源管理平台</a></p>
+                                    <h4>工业物联网网关</h4>
+                                    <p><a href="industrial-networking-gateway.html">工业网关</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <h4>云应用开发与管理平台</h4>
+                                    <p><a href="cloud-app-market.html">云应用市场套件</a><a href="cloud-app-develop-platform.html">云应用开发套件</a><a href="cloud-resource-manage-platform.html">云资源管理套件</a></p>
                                 </div> 
                             </li>
                         </ul>
@@ -158,7 +158,7 @@ ul ol{list-style: none;}
                             a{
                                 font-size: 14px;
                                 color: #333;
-                                margin-right: 28px;
+                                margin-right: 22px;
                                 line-height: 28px;
                                 &:hover{
                                     color: #262626;
