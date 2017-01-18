@@ -3,7 +3,6 @@
         <header>
             <nav>
                 <header-con></header-con>
-                <h1>工业互联网时代先行者</h1>
             </nav>
         </header>
         <div class="join-wrapper">
@@ -439,7 +438,7 @@
         box-sizing: border-box;
     }
     nav{
-        background: url("../../assets/img/about-us.jpg") center center no-repeat;
+        background: url("./img/join-us.jpg") center center no-repeat;
     }
     .join-wrapper{
     width: 100%;

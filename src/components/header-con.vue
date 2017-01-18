@@ -52,7 +52,7 @@
                         </ul>
                     </li> -->
                     <li class="tabs-con" :class="{'active': isActive === 'join'}" @mouseover="over('join')">
-                        <a class="tabs" href="join_us.html">加入我们</a>
+                        <a class="tabs" href="join-us.html">加入我们</a>
                     </li>
                     <li class="tabs-con" :class="{'active': isActive === 'about'}" @mouseover="over('about')">
                         <a class="tabs" href="about-us.html">关于我们</a>

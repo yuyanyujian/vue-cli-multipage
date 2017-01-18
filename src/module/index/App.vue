@@ -21,7 +21,7 @@
         </header>
         <div class="index-body" >
             <div class="index-slogan ">
-                <img src="../../assets/img/shadows.png" class="img-responsive" style="width:100%;" alt=""/>
+                <img src="./img/shadows.png" class="img-responsive" style="width:100%;" alt=""/>
                 <div class="contain index-slogan-1">
                     <h3>寄云，中国工业互联网平台的领导厂商</h3>
                     <h4>“未来的企业都将是数字化的企业”</h4>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class=" index-slogan">
-                <img src="../../assets/img/0111.png" class="img-responsive" style="width:100%; max-height:562px;" alt="">
+                <img src="./img/0111.png" class="img-responsive" style="width:100%; max-height:562px;" alt="">
                 <div class="contain index-2-contant">
                     <div style="display: inline-block;">
                         <div class=" index-2-padding">
@@ -121,19 +121,19 @@
                         <p style="float:right; margin-right:30px;"><a href="#">全部</a></p>
                     </div>
                     <div class="news-contant">
-                        <img src="../../assets/img/0112.png" class="img-responsive" alt="">
+                        <img src="./img/0112.png" class="img-responsive" alt="">
                         <h4 class="news-title">寄云推动工业互联网建设</br>释放数据价值</h4>
                         <p class="news-text">如何踏上数字化之路，以及通过什么途径实现数字化转型现在成为众多工业领域企业关注的焦点。寄云科技CEO时培昕博士对此表示，传统的IT架构无法满足工业领域企业走进工业互联网时代的需要，企业IT架构必须以平滑的方式向云计算演进，并借助大数据和物联网对所有资源和信息进行汇聚和分析。</p>
                         <a href="#" class="btn-define">了解详情</a>
                     </div>
                     <div class="news-contant">
-                        <img src="../../assets/img/0113.jpg" class="img-responsive" alt="">
+                        <img src="./img/0113.jpg" class="img-responsive" alt="">
                         <h4 class="news-title">寄云与荣之联达成战略合作</br>深耕工业互联网</h4>
                         <p class="news-text">日前，寄云科技与荣之联达成合作协议，双方将在工业互联网领域建立全面、深入的合作。寄云科技与荣之联将充分利用双方在技术积累和行业应用上的优势，依托国家智能制造2025规划方针，优势互补推动工业互联网服务，整合双方资源，共同探索平台化运营模式。</p>
                         <a href="#" class="btn-define">了解详情</a>
                     </div>
                     <div class="news-contant">
-                        <img src="../../assets/img/0114.jpg" class="img-responsive" alt="">
+                        <img src="./img/0114.jpg" class="img-responsive" alt="">
                         <h4 class="news-title">寄云科技亮相华为全联接大会</br>云生态进一步提速</h4>
                         <p class="news-text">在2016年中国软件产业合作高峰论坛中，寄云科技因建立的创新软件生态荣获该奖项。寄云科技致力于打造健康的软件生态，帮助ISV打破地域和成本的限制，直达数百万级别的用户桌面。</p>
                         <a href="#" class="btn-define">了解详情</a>
@@ -145,16 +145,16 @@
                     <h4>协同 · 智慧 · 创造</h4>
                     <p>寄云科技努力打造更高价值的工业互联网产品，更注重人才培养及业务学习能力</br>在寄云，你可以发挥更高的创造力，学习接触最新的知识理念</br>真正实践到项目中，并和我们一起成长</p>
                     <div class="col-xs-6">
-                        <img src="../../assets/img/0115.jpg" class="img-responsive" alt="">
+                        <img src="./img/0115.jpg" class="img-responsive" alt="">
                         <div class="text-center index-4-more">
-                            <img src="../../assets/img/放大镜.png" alt="" class="img-responsive">
+                            <img src="./img/放大镜.png" alt="" class="img-responsive">
                             <p>了解更多</p>
                         </div>
                     </div>
                     <div class="col-xs-6">
-                        <img src="../../assets/img/0116.png" class="img-responsive" alt="">
+                        <img src="./img/0116.png" class="img-responsive" alt="">
                         <div class="text-center index-4-more">
-                            <img src="../../assets/img/logo_02.png" alt="" class="img-responsive">
+                            <img src="./img/logo_02.png" alt="" class="img-responsive">
                             <p>加入寄云</p>
                         </div>
                     </div>
@@ -196,13 +196,13 @@
                 height: 562px;
             }
             .page1 {
-                background: url("../../assets/img/0101.jpg") center center no-repeat;
+                background: url("./img/0101.jpg") center center no-repeat;
             }
             .page2 {
-                background: url("../../assets/img/0101_2.jpg") center center no-repeat;
+                background: url("./img/0101_2.jpg") center center no-repeat;
             }
             .page3 {
-                background: url("../../assets/img/0101_3.jpg") center center no-repeat;
+                background: url("./img/0101_3.jpg") center center no-repeat;
             }
             .el-carousel__indicators {
                 position: absolute;
@@ -314,32 +314,32 @@
         color:#ffffff;
     }
     .index-sda{
-        background: url(../../assets/img/0102.jpg) no-repeat center center;
+        background: url(./img/0102.jpg) no-repeat center center;
 
     }
     .index-fp{
-        background: url(../../assets/img/0103.jpg) no-repeat center center;
+        background: url(./img/0103.jpg) no-repeat center center;
     }
     .index-pm{
-        background: url(../../assets/img/0104.jpg) no-repeat center center;
+        background: url(./img/0104.jpg) no-repeat center center;
     }
     .index-plo{
-        background: url(../../assets/img/0105.jpg) no-repeat center center;
+        background: url(./img/0105.jpg) no-repeat center center;
     }
     .index-qos{
-        background: url(../../assets/img/0106.jpg) no-repeat center center;
+        background: url(./img/0106.jpg) no-repeat center center;
     }
     .index-fbr{
-        background: url(../../assets/img/0107.jpg) no-repeat center center;
+        background: url(./img/0107.jpg) no-repeat center center;
     }
     .index-ii{
-        background: url(../../assets/img/0108.jpg) no-repeat center center;
+        background: url(./img/0108.jpg) no-repeat center center;
     }
     .index-dddm{
-        background: url(../../assets/img/0109.jpg) no-repeat center center;
+        background: url(./img/0109.jpg) no-repeat center center;
     }
     .index-oe{
-        background: url(../../assets/img/0110.jpg) no-repeat center center;
+        background: url(./img/0110.jpg) no-repeat center center;
     }
     .index-3-news{
         padding-top: 90px;

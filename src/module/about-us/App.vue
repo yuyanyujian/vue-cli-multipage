@@ -16,7 +16,7 @@
                 <div class="tab-content">
                     <div class="about" v-show="isActive === '公司介绍'">
                         <section class="description">
-                            <img src="../../assets/img/logo_03.png">
+                            <img src="./img/logo_03.png">
                             <p>北京寄云鼎城科技有限公司（NeuCloud）</p>
                             <p>成立于2013年9月，是国内领先的数字化创新平台提供商，致力于帮助企业客户实现数字化转型，提高核心竞争力，实现业务增长。</p>
                             <p>如今，企业都在寻求借助新兴技术实现数字化转型，而寄云科技始终走在技术的最前沿，综合了云计算、物联网、大数据等关键技术优势，推出了拥有自主产权的数字化创新平台完整解决方案。寄云科技追求的始终是“客户一体化”，通过SaaS服务平台、PaaS平台、企业应用商店、大数据分析服务及解决方案等产品线构建完整的全生命周期的一站式数字化创新平台，帮助企业成功转型数字化，优化业务流程，降低成本。</p>
@@ -25,7 +25,7 @@
                         </section>
                         <section class="advantage">
                             <h3 class="article">我们的优势</h3>
-                            <img src="../../assets/img/advantage.jpg">
+                            <img src="./img/advantage.jpg">
                         </section>
                         <section class="time-line">
                             <h3 class="article">公司里程</h3>
@@ -68,67 +68,67 @@
                     <div class="honour" v-show="isActive === '公司荣耀'">
                         <ul class="clearfix">
                             <li>
-                                <img src="../../assets/img/prize1.jpg">
+                                <img src="./img/prize1.jpg">
                                 <b>寄云科技荣获2016中国创新型软件企业推荐</b>
                                 <p>在2016年中国软件产业合作高峰论坛中，寄云科技因建立的创新软件生态荣获该奖项。寄云科技致力于打造健康的软件生态，帮助ISV打破地域和成本的限制，直达数百万级别的用户桌面。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize2.jpg">
+                                <img src="./img/prize2.jpg">
                                 <b>寄云科技CEO时培昕博士荣获“云鼎奖——中国最具影响力人物奖”</b>
                                 <p>本奖项经由独立第三方研究机构、产业联盟、行业组织、国际组织等多方人士组成的评审委员会评选和网络投票产生。寄云科技CEO时培昕博士是国内最早从事云计算和大数据相关领域研究的人员之一，是国内云计算行业的知名技术专家，在云计算研究、战略规划等方面做出了突出性的业绩。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize3.jpg">
+                                <img src="./img/prize3.jpg">
                                 <b>寄云科技荣获全球最具潜力企业奖</b>
                                 <p>寄云科技因其领先的云服务模式、优秀的产品服务及解决方案脱颖而出，荣获全球最具潜力企业奖。通过软件云化/SaaS化、SaaS应用商店和PaaS平台构成了“产+销”云服务平台，寄云科技提供的大数据服务及解决方案，帮助行业用户挖掘企业数据的真正价值，通过优化和整合国内的云计算和大数据产业资源打造新的合作生态。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize4.jpg">
+                                <img src="./img/prize4.jpg">
                                 <b>寄云科技荣获《商业伙伴》杂志社颁发的“2016优秀云服务运营商”</b>
                                 <p>此次获奖是商业伙伴咨询机构对国内云计算生态系统持续跟踪研究后所颁发。寄云科技因其先进的理念最终获得优秀云服务运营商奖项。寄云科技通过软件云化/SaaS化、SaaS应用商店和PaaS平台构成了“产+销”云服务平台，帮助企业冲破进入企业云服务市场的巨大阻力，帮助企业上云，构建云端应用。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize5.jpg">
+                                <img src="./img/prize5.jpg">
                                 <b>寄云PaaS平台荣获中国信息化推荐联盟和《网络运维与管理》杂志社联合颁发的“优秀创新项目奖”</b>
                                 <p>寄云PaaS平台做为优异的资源、应用统一管理平台，可帮助企业快速构建高效可控的混合云方案，可屏蔽底层IaaS的复杂性，为应用提供更稳定的运行环境，提高运维人员在混合云（IaaS）运维管理的效率，减少IT运维人员的工作负担。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize6.jpg">
+                                <img src="./img/prize6.jpg">
                                 <b>寄云科技荣获Cloud China 2016云帆奖奖项</b>
                                 <p>寄云PaaS平台为企业的开发者和IT运营者提供最佳的资源、应用的统一管理平台，能够轻松部署和管理跨公有云、私有云的企业应用和开发环境及组件，从云基础设施和企业应用两个维度，为企业用户提供云资源和企业应用的配置、 监控、自动化部署和管理等服务，降低企业云落地、云开发的门槛。支持统一管理多种公有云和私有云环境，并集成了如脚本执行、监控告警和应用部署等日常运维管理工具。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize7.jpg">
+                                <img src="./img/prize7.jpg">
                                 <b>寄云科技荣获至顶网2015年凌云奖最佳云生态厂商奖项</b>
                                 <p>寄云科技是一家专业的企业云服务提供商，为用户提供便捷、易用、安全、可靠、高性价比的企业级云应用平台。寄云科技作为国内SaaS领域的先驱者，帮助软件厂商进行业务转型，在零代码改动和零前期投入的情况下，帮助厂商直面百万级企业销售机会，为打造国内健康的云生态做出了突出贡献。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize8.jpg">
+                                <img src="./img/prize8.jpg">
                                 <b>寄云SaaS服务平台荣获赛迪网2015年度最佳云应用平台奖项</b>
                                 <p>寄云SaaS服务平台为软件厂商提供一站式销售、管理、营销服务，可帮助软件厂商进行业务转型，在零代码改动和零前期投入的情况下，帮助厂商直面百万级企业销售机会，为打造国内健康的云生态做出了贡献。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize9.jpg">
+                                <img src="./img/prize9.jpg">
                                 <b>寄云科技总经理时培昕荣获赛迪网2015年SaaS行业最具影响力人物</b>
                                 <p>寄云科技总经理时培昕博士一直在推动国内SaaS行业整体发展而努力，在SaaS具有极大的影响力。时培昕博士为国内SaaS行业提供专业的指导和建议，为打造国内健康的云生态做出了突出贡献。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize10.jpg">
+                                <img src="./img/prize10.jpg">
                                 <b>寄云科技时培昕博士荣获商业伙伴2015方案商创新人物</b>
                                 <p>时培昕博士因其创新的商业理念荣获该奖项。寄云科技的业务打通了云产业链条的各个环节，为渠道商、ISV带来了新的业务模式和增长点，为企业用户带来了丰富的即买即用的企业应用软件和简便的管理平台。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize11.jpg">
+                                <img src="./img/prize11.jpg">
                                 <b>2014中国IT产品满意度调查技术创新奖</b>
                                 <p>该奖项在2014中国网络管理技术大会上，由中国电子信息产业发展研究院和《网络运维与管理》杂志社联合颁发，作为国内最权威的大型网络技术交流活动之一，“中国网络管理技术大会”被视为技术领先且应用最为广泛产品的权威展示平台，倍受业界重视与关注。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize12.jpg">
+                                <img src="./img/prize12.jpg">
                                 <b>《网络世界》2014年度企业云服务创新解决方案</b>
                                 <p>《网络世界》年度创新奖由权威企业级媒体《网络世界》颁发，入选该奖项的产品和解决方案，代表引领行业、创新开拓的实力。</p>
                             </li>
                             <li>
-                                <img src="../../assets/img/prize13.jpg">
+                                <img src="./img/prize13.jpg">
                                 <b>Cloud500榜单</b>
                                 <p>Cloud500榜单是商业伙伴咨询机构对国内云计算生态系统持续跟踪研究的结果。入选Cloud500的企业，是国内最具实力的云计算公司的代表，也是中国云计算生态系统的骨干力量。</p>
                             </li>
@@ -141,7 +141,7 @@
                         <ul>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic1.jpg">
+                                    <img src="./img/dynamic1.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/jiyun-rongzhilian-2129.html" target="_blank">寄云与荣之联达成战略合作 深耕工业互联网</a>
@@ -151,7 +151,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic2.jpg">
+                                    <img src="./img/dynamic2.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/gongyehulianwang-2128.html" target="_blank">寄云推动工业互联网建设 释放数据价值</a>
@@ -161,7 +161,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic3.jpg">
+                                    <img src="./img/dynamic3.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/jiyun-ruantongdongli-hezuo-2073.html" target="_blank">寄云科技与软通动力携手打造SaaS合作新生态</a>
@@ -171,7 +171,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic4.jpg">
+                                    <img src="./img/dynamic4.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/jiyunkeji-yunjixingchuang-2111.html" target="_blank">寄云科技携手云极星创 加速产业云落地</a>
@@ -181,7 +181,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic5.jpg">
+                                    <img src="./img/dynamic5.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/shuzihuazhuanxing-2000.html" target="_blank">寄云科技全面布局云服务 助企业数字化转型</a>
@@ -191,7 +191,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic6.jpg">
+                                    <img src="./img/dynamic6.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/jiyun-huawei-quanlianjie-1985.html" target="_blank">寄云科技亮相华为全联接大会 云生态进一步提速</a>
@@ -201,7 +201,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic7.jpg">
+                                    <img src="./img/dynamic7.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/zhongguancun-chuying-1982.html" target="_blank">寄云科技获选中关村雏鹰计划专项支持企业</a>
@@ -211,7 +211,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic8.jpg">
+                                    <img src="./img/dynamic8.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/jiyun-zhongdianshuju-1984.html" target="_blank">寄云科技与中电数据达成战略合作共建医疗大数据平台</a>
@@ -221,7 +221,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic9.jpg">
+                                    <img src="./img/dynamic9.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/1983.html" target="_blank">软件进入SaaS时代　寄云致力共建SaaS合作新生态</a>
@@ -231,7 +231,7 @@
                             </li>
                             <li class="clearfix">
                                 <div class="img-con">
-                                    <img src="../../assets/img/dynamic10.jpg">
+                                    <img src="./img/dynamic10.jpg">
                                 </div>
                                 <div class="info">
                                     <a href="http://www.neucloud.io/article/saas-tidai-ruanjian-1980.html" target="_blank">寄云科技：SaaS替代传统软件 只是时间问题</a>
@@ -274,11 +274,11 @@
                             <ul class="adress">
                                 <li>
                                     <p>北京总部：北京海淀区中关村软件园云基地C座415-418</p>
-                                    <img src="../../assets/img/map1.jpg">
+                                    <img src="./img/map1.jpg">
                                 </li>
                                 <li>
                                     <p>上海办事处：上海市宛平南路98号永丰国际广场银座9楼912室</p>
-                                    <img src="../../assets/img/map2.jpg">
+                                    <img src="./img/map2.jpg">
                                 </li>
                             </ul>
                         </section>
@@ -317,7 +317,7 @@
         box-sizing: border-box;
     }
     nav{
-        background: url("../../assets/img/about-us.jpg") center center no-repeat;
+        background: url("./img/about-us.jpg") center center no-repeat;
     }
     .product-body{
         width: 100%;
@@ -417,7 +417,7 @@
                 color: #4A4A4A;
                 li{
                     list-style: none;
-                    background: url(../../assets/img/timeline-icon.png) no-repeat 8px 18px;
+                    background: url(./img/timeline-icon.png) no-repeat 8px 18px;
                     border-bottom: 1px solid #D3D9F0;
                     font-size: 18px;
                     line-height: 50px;
