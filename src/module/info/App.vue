@@ -1,9 +1,8 @@
 <template>
     <div>
         <header-con></header-con>
-        <p>欢迎来到基于vue2.0的多页面应用!</p>
-        <p>我是首页！</p>
-        <p>看到我，说明你已经成功了~~</p>
+        <p>我是详情页面！</p>
+        <p>详~~~~~~情~~~~~~页面---info.html</p>
     </div>
 </template>
 <script>

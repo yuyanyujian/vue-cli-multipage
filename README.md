@@ -1,4 +1,4 @@
-# 多页面应用
+# vue2.0多页面应用
 
 > A Vue.js Multipage project
 

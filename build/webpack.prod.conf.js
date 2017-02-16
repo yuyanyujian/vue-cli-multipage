@@ -12,7 +12,7 @@ var env = process.env.NODE_ENV === 'testing'
 
 var glob = require('glob');
 
-module.exports = merge(baseWebpackConfig, {
+var webpackConfig = merge(baseWebpackConfig, {
   module: {
     loaders: utils.styleLoaders({ sourceMap: config.build.productionSourceMap, extract: true })
   },
@@ -101,29 +101,42 @@ if (config.build.productionGzip) {
   )
 }
 
+module.exports = webpackConfig
+
 function getEntry(globPath) {
   var entries = [],
     basename, tmp, pathname;
 
   glob.sync(globPath).forEach(function (entry) {
     basename = path.basename(entry, path.extname(entry));
-    tmp = entry.split('/').splice(-3);
-    pathname = tmp.splice(0, 1) + '/' + basename; // 正确输出js和html的路径
-    entries[pathname] = entry;
+    entries[basename] = entry;// 正确输出js和html的路径
   });
   return entries;
 }
 
 var pages = getEntry('./src/module/**/*.html');
 
+// 设置module.exports.entry的key（为了最终在页面插入正确的js文件）
+for (var jspathname in module.exports.entry) {
+  name = jspathname.split('/')[1];
+  module.exports.entry[name] = module.exports.entry[jspathname];
+  delete module.exports.entry[jspathname];
+}
+
 for (var pathname in pages) {
   // 配置生成的html文件，定义路径等
   var conf = {
     filename: pathname + '.html',
-    template: pages[pathname], // 模板路径
-    chunks: [pathname, 'vendor', 'manifest'], // 每个html引用的js模块
-    inject: true              // js插入位置
+    template: pages[pathname],   // 模板路径
+    inject: true,              // js插入位置
+    chunksSortMode: 'dependency'
   };
-  // 需要生成几个html文件，就配置几个HtmlWebpackPlugin对象
+
+  if (pathname in module.exports.entry) {
+    // 入口文件引入正确的JS
+    conf.chunks = ['manifest', 'vendor', pathname];
+    conf.hash = true;
+  }
+
   module.exports.plugins.push(new HtmlWebpackPlugin(conf));
 }
